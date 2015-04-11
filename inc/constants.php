@@ -443,6 +443,7 @@ $default_colorstyles = array(
     'colors_us.css' => __( 'USA (Violet)', 'piratenkleider' ),
     'colors_flaschenpost.css' => __( 'Flaschenpost (Light Blue)', 'piratenkleider' ),
     'colors_white.css' => __( 'White/Transparent', 'piratenkleider' ),
+    'colors_ch.css' => __( 'Switzerland', 'piratenkleider' ),
 
  );
           

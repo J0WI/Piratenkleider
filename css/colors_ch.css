@@ -1,0 +1,298 @@
+/* 
+Document   : colors_ch
+Created on : 14.02.2015, 19:34:33
+Author     : J0WI
+Description:
+       Define corporate design colors for the theme.
+       Each pirate party in several countries use their own set of colors;
+       Therefor all color-settings are outsourced in files in
+       the form colors_LANG.css.
+
+       Settings in the color files will override settings in the
+       current basemods, which defines the default style (german colors).
+
+       This is the swiss color file.
+       
+       Base color: #EEB50C, rgba(153, 51, 153, 0.2); 
+       Special text font: Bebas Neue
+*/
+
+
+@media screen, projection {
+	body {
+		background-color: #EEB50C; 
+		background-image: url("../images/bgmid.jpg");
+		background-repeat: repeat-x;
+		background-attachment: scroll;
+	}
+	body,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.headlinefont,
+	.tagcloud,
+	.post-nav a,
+	ol.az dl dt,
+	.post .post-info .cal-icon .day,
+	.first-startpage-widget-area li a
+	.menufont,
+	.nav-main ul.menu li a,
+	.cifont,
+	.sticker ul li,
+	.teaserlinks ul li a {
+		font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;
+	}
+	.header {
+		background: none; 
+		height: auto;
+	}
+	body.nav-fixed .header,
+	body.logged-in.nav-fixed .header {
+		height: auto;
+		background-color: #EEB50C; 
+	}
+	body.nav-fixed .header .row {
+		box-shadow: 0px -2px 4px 2px #D97C10;
+	}
+	.header .branding {
+		padding: 0;
+		margin-top: 32px;
+		height: auto;
+	}
+	.section {
+		padding: 0;
+		clear: both;
+	}
+	.sticker ul li a:hover .cicolor,
+	.sticker ul li a:focus .cicolor,
+	.sticker ul li a:hover .orange,
+	.sticker ul li a:focus .orange,
+	.sticker ul li a:hover .cyan,
+	.sticker ul li a:focus .cyan,
+	a:link,
+	a:visited,
+	a:hover {
+		background: none;
+		color: #A57F57;
+	}
+	.nav-top {
+		min-height: 20px;
+		height: auto;
+		background: #4C4642;
+		font-size: 11px;
+	}
+	.nav-top div.menu-header ul.menu li a:hover,
+	.nav-top div.menu-header ul.menu li a:focus {
+		background: none;
+		color: #E79928;
+	}
+	.nav-top div.menu-header ul.menu li a {
+		color: #CCC;
+		line-height: 20px;
+		text-transform: uppercase;
+		text-shadow: none;
+	}
+	.nav-main {
+		position:relative;
+	}
+	.nav-main ul.menu {
+		width: 100%;
+		background-color: #E8C346;
+		background-image: linear-gradient(to bottom, #EB8801, #E8C346);
+		box-shadow: 0px -2px 4px 2px #D97C10;
+		border-radius: 0;
+	}
+	.teaser .row {
+		box-shadow: none;
+		background-image: linear-gradient(to top, #EB8801, #E8C346);
+	}
+	.nav-main ul.menu li a {
+		color: #FFF;
+	}
+	.nav-main ul.menu li ul li a {
+		color: #333;
+	}
+	.nav-top div.menu-header ul.menu li a:hover,
+	.nav-top div.menu-header ul.menu li a:focus,
+	.ie8 .nav-top div.menu-header ul.menu li a:hover {
+		color: #E79928;
+	}
+	.nav-main ul.menu li a:hover,
+	.nav-main ul.menu li a.hover,
+	.nav-main ul.menu li:hover,
+	.nav-main ul.menu li.hover {
+		background: none;
+		color: #333;
+	}
+	.nav-main ul.menu li ul li a:hover,
+	.nav-main ul.menu li ul li a.hover,
+	.nav-main ul.menu li ul li:hover,
+	.nav-main ul.menu li ul li.hover {
+		color: #000;
+	}
+	.nav-main ul.menu li.current_page_item a[title="Home"],
+	.nav-main ul.menu li.current-menu-item.menu-item-home a,
+	.nav-main ul.menu li.current_page_item a[title="Home"]:hover,
+	.nav-main ul.menu li.current_page_item a.hover[title="Home"],
+	.nav-main ul.menu li.current-menu-item.menu-item-home a:hover,
+	.nav-main ul.menu li.current-menu-item.menu-item-home a.hover,
+	body.nav-fixed .nav-main ul.menu li.current_page_item a[title="Home"],
+	body.nav-fixed .nav-main ul.menu li.current-menu-item.menu-item-home a,
+	body.nav-fixed .nav-main ul.menu li.current_page_item a[title="Home"]:hover,
+	body.nav-fixed .nav-main ul.menu li.current_page_item a.hover[title="Home"],
+	body.nav-fixed .nav-main ul.menu li.current-menu-item.menu-item-home a:hover,
+	body.nav-fixed .nav-main ul.menu li.current-menu-item.menu-item-home a.hover {
+		background-color: transparent;
+	}
+	.content-aside .slide .caption a:hover,
+	.first-teaser-widget-area .slide .caption a:hover {
+		color: #333;
+	}
+	.second-teaser-widget-area .skin {
+		padding: 0;
+	}
+	.teaserlinks ul li {
+		background: none;
+		box-shadow: none;
+		min-height: 0;
+	}
+	.teaserlinks ul li a {
+		min-height: 70px;
+		text-transform: uppercase;
+		text-shadow: 0px 0px 5px #FC6, 0px 0px 5px #FC6, 0px 0px 8px #FC6;
+	}
+	.teaserlinks ul li a span {
+		color: #863303;
+		text-transform: none;
+		font-size: 12px;
+	}
+	.teaserlinks ul li a:focus,
+	.teaserlinks ul li a:hover {
+		background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.1);
+	}
+	.content .row {
+		box-shadow: 0px 2px 4px 2px #D97C10;
+		background: #FFF;
+	}
+	.content-aside {
+		background: #FBF8F2;
+		border-left: 1px solid #F2E9DE;
+	}
+	.content-aside .skin {
+		background: none;
+	}
+	.content-aside h2 {
+		text-transform: uppercase;
+		color: #A57F57;
+		font-size: 13px;
+		font-weight: bold;
+	}
+	.content-aside .slide .caption a,
+	.first-teaser-widget-area .slide .caption a {
+		background: none;
+	}
+	.content-aside .widget li,
+	.content-aside .twitterwidget li {
+		background: none;
+	}
+	.content-aside .widget li:hover,
+	.content-aside .widget li:focus,
+	.content-aside .twitterwidget li:hover,
+	.content-aside .twitterwidget li:focus,
+	.content-aside .widget li a.rsswidget:hover,
+	.content-aside .widget li a.rsswidget:focus,
+	.slide .caption h3 a:hover {
+		background: none;
+	}
+	.post-nav a:hover,
+	.post-nav a:focus,
+	.content-aside a:hover,
+	.content-aside a:focus,
+	.content-aside a:visited {
+		color: #695037;
+		text-decoration: none;
+	}
+	.footer {
+		margin-top: 65px;
+		background: url("../images/bgfot.jpg") repeat-x;
+		background-color: rgb(215, 130, 21);
+		color: #984508;
+	}
+	.footer .row {
+		background: none;
+	}
+	.footer a:link, .footer a:hover, .footer a:visited {
+		background: none;
+		color: #984508;
+	}
+	.searchform .searchsubmit,
+	.nav-top form.searchform .searchsubmit,
+	button,
+	input[type="submit"],
+	.post-edit-link,
+	.post-comments ol li .reply a,
+	.first-startpage-widget-area a.all-articles {
+		background-color: #F80;
+		border: none;
+	}
+	.searchform .searchsubmit:hover,
+	.nav-top form.searchform .searchsubmit:hover,
+	button:hover,
+	input[type="submit"]:hover,
+	.post-edit-link:hover,
+	.post-comments ol li .reply a:hover,
+	.first-startpage-widget-area a.all-articles:hover {
+		background-color: #984508;
+	}
+	.socialmedia .icon_delicious:hover,
+	.socialmedia .icon_delicious:focus,
+	.socialmedia .icon_diaspora:hover,
+	.socialmedia .icon_diaspora:focus,
+	.socialmedia .icon_facebook:hover,
+	.socialmedia .icon_facebook:focus,
+	.socialmedia .icon_feed:hover,
+	.socialmedia .icon_feed:focus,
+	.socialmedia .icon_flattr:hover,
+	.socialmedia .icon_flattr:focus,
+	.socialmedia .icon_flickr:hover,
+	.socialmedia .icon_flickr:focus,
+	.socialmedia .icon_gplus:hover,
+	.socialmedia .icon_gplus:focus,
+	.socialmedia .icon_identica:hover,
+	.socialmedia .icon_identica:focus,
+	.socialmedia .icon_itunes:hover,
+	.socialmedia .icon_itunes:focus,
+	.socialmedia .icon_skype:hover,
+	.socialmedia .icon_skype:focus,
+	.socialmedia .icon_twitter:hover,
+	.socialmedia .icon_twitter:focus,
+	.socialmedia .icon_youtube:hover,
+	.socialmedia .icon_youtube:focus,
+	.socialmedia .icon_xing:hover,
+	.socialmedia .icon_xing:focus,
+	.socialmedia .icon_tumblr:hover,
+	.socialmedia .icon_tumblr:focus,
+	.socialmedia .icon_github:hover,
+	.socialmedia .icon_github:focus,
+	.socialmedia .icon_appnet:hover,
+	.socialmedia .icon_appnet:focus {
+		background-color: #984508;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.nav-main ul.menu li a,
+	.skiplinks li a {
+		color:#FFF;
+		border: none;
+		background-color: #E8C346;
+		background-image: linear-gradient(to bottom, #EB8801, #E8C346);
+	}
+	.nav-main ul.menu li a:focus,
+	.skiplinks li a:hover {
+		background-color: #E8C346;
+		background-image: linear-gradient(to bottom, #EB8801, #E8C346);
+	}
+}
