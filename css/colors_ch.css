@@ -105,6 +105,9 @@ Description:
 		box-shadow: 0px -2px 4px 2px #D97C10;
 		border-radius: 0;
 	}
+	.footer .row, .nav-fixed .nav-main ul.menu {
+		box-shadow: none;
+	}
 	.teaser .row {
 		box-shadow: none;
 		background-image: linear-gradient(to top, #EB8801, #E8C346);
