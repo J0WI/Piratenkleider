@@ -523,7 +523,7 @@ $default_alternativestyles = array(
  $default_footerlink_liste = array(
      __( 'Germany', 'piratenkleider' )  => array(
         'title' => __( 'Pirate Party Germany', 'piratenkleider' ),
-        'url'   => 'https://www.piratenpartei.de',
+        'url'   => 'https://www.piratenpartei.de/',
         'sublist'   => array(
             __('Baden-W&uuml;rttemberg', 'piratenkleider' ) => 'https://piratenpartei-bw.de/',
             __('Bayern', 'piratenkleider' ) => 'https://piratenpartei-bayern.de/',
@@ -705,8 +705,6 @@ $default_alternativestyles = array(
             __('<abbr title="Regional Chapter">RC</abbr>','piratenkleider').' S&uuml;dbrandenburg' => 'https://sued.piratenbrandenburg.de/',
         )
     ),
-   
-    
     'Hamburg' => array(
         'title' => __('Pirate Party Country Association','piratenkleider').' Hamburg',
         'url'  => 'http://www.piratenpartei-hamburg.de/',
@@ -856,6 +854,23 @@ $default_alternativestyles = array(
             'Mansfeld-S&uuml;dharz' => 'http://www.piraten-msh.de/',
             'Wittenberg' => 'http://piratenpartei-wittenberg.de/',
         )
+    ),
+      'Schweiz' => array(
+        'title' => __('Pirate Party Switzerland','piratenkleider'),
+        'url'  => 'http://www.piratenpartei.ch',
+	'sublist' => array(
+		__('Aargau', 'piratenkleider' ) => 'https://www.piraten-aargau.ch/',
+		__('Bern', 'piratenkleider' ) => 'https://be.piratenpartei.ch/',
+		__('Beider Basel', 'piratenkleider' ) => 'https://piraten-basel.ch/',
+		__('Genf', 'piratenkleider' ) => 'https://ge.partipirate.ch/',
+		__('St. Gallen und beider Appenzell', 'piratenkleider' ) => 'https://sg.partipirate.ch/',
+		__('Tessin', 'piratenkleider' ) => 'https://www.partitopirata.ch/',
+		__('Thurgau-Schaffhausen', 'piratenkleider' ) => 'https://tg.partipirate.ch/',
+		__('Waadt', 'piratenkleider' ) => 'https://vd.partipirate.ch/',
+		__('Wallis', 'piratenkleider' ) => 'https://vs.piratenpartei.ch/',
+		__('Zentralschweiz', 'piratenkleider' ) => 'https://zs.piratenpartei.ch/',
+		__('Zürich', 'piratenkleider' ) => 'https://zh.piratenpartei.ch/',
+		)
     ),
       'Thueringen' => array(
         'title' => __('Pirate Party Country Association','piratenkleider').' Th&uuml;ringen',
