@@ -16,8 +16,6 @@ $defaultoptions = array(
     'background-header-color'	    => 'eeeeee',
     'smallslider-thumb-width'       => 220,
     'smallslider-thumb-height'      => 185,
-    
-    
     'bigslider-thumb-width'         => 705,
     'bigslider-thumb-height'        => 240,
     'bigslider-thumb-crop'          => 1,
@@ -570,13 +568,13 @@ $default_alternativestyles = array(
              __('Iceland', 'piratenkleider') => 'http://pirateparty.is/',
              __('Israel', 'piratenkleider') => 'http://piratim.org/',
              __('Italy', 'piratenkleider' ) => 'http://www.partito-pirata.it/',
-             __('Japan', 'piratenkleider' ) =>  'http://ppt.3rin.net/',  
+             __('Japan', 'piratenkleider' ) =>  'http://www.piratepartyjapan.org/',  
              __('Kazakhstan', 'piratenkleider' ) => 'http://pirateparty.kz/',
              __('Korea, South', 'piratenkleider' ) => 'http://pirateparty.kr/',
              __('Latvia', 'piratenkleider' ) => 'http://piratupartija.lv/',
 //             __('Lithuania', 'piratenkleider' ) => 'http://piratupartija.lt/',
              __('Luxembourg', 'piratenkleider' ) => 'http://www.piratepartei.lu/',
-             __('Mexico', 'piratenkleider' ) => 'http://www.partidopiratamexicano.org/',
+//             __('Mexico', 'piratenkleider' ) => 'http://www.partidopiratamexicano.org/',
              __('Netherlands', 'piratenkleider' ) => 'https://www.piratenpartij.nl/',
              __('New Zealand', 'piratenkleider' ) => 'http://pirateparty.org.nz/',
              __('Peru', 'piratenkleider' ) => 'http://wiki.freeculture.org/Pirata',
@@ -625,13 +623,13 @@ $default_alternativestyles = array(
             '<span class="flagicon-is"></span> '. __('Iceland', 'piratenkleider') => 'http://pirateparty.is/',
             '<span class="flagicon-il"></span> '. __('Israel', 'piratenkleider') => 'http://piratim.org/',
             '<span class="flagicon-it"></span> '. __('Italy', 'piratenkleider' ) => 'http://www.partito-pirata.it/',
-            '<span class="flagicon-jp"></span> '. __('Japan', 'piratenkleider' ) =>  'http://ppt.3rin.net/',  
+            '<span class="flagicon-jp"></span> '. __('Japan', 'piratenkleider' ) =>  'http://www.piratepartyjapan.org/',  
             '<span class="flagicon-kz"></span> '. __('Kazakhstan', 'piratenkleider' ) => 'http://pirateparty.kz/',
             '<span class="flagicon-kr"></span> '. __('Korea, South', 'piratenkleider' ) => 'http://pirateparty.kr/',
             '<span class="flagicon-lv"></span> '. __('Latvia', 'piratenkleider' ) => 'http://piratupartija.lv/',
     //        '<span class="flagicon-lt"></span> '. __('Lithuania', 'piratenkleider' ) => 'http://piratupartija.lt/',
             '<span class="flagicon-lu"></span> '. __('Luxembourg', 'piratenkleider' ) => 'http://www.piratepartei.lu/',
-            '<span class="flagicon-mx"></span> '. __('Mexico', 'piratenkleider' ) => 'http://www.partidopiratamexicano.org/',
+    //        '<span class="flagicon-mx"></span> '. __('Mexico', 'piratenkleider' ) => 'http://www.partidopiratamexicano.org/',
             '<span class="flagicon-nl"></span> '. __('Netherlands', 'piratenkleider' ) => 'https://www.piratenpartij.nl/',
             '<span class="flagicon-nz"></span>  '. __('New Zealand', 'piratenkleider' ) => 'http://pirateparty.org.nz/',
             '<span class="flagicon-pe"></span> '. __('Peru', 'piratenkleider' ) => 'http://wiki.freeculture.org/Pirata',
@@ -801,6 +799,7 @@ $default_alternativestyles = array(
         __('<abbr title="District Chapter">DC</abbr>','piratenkleider').' Krefeld' =>'http://www.seidenstadt-piraten.de/',
         __('<abbr title="District Chapter">DC</abbr>','piratenkleider').' Minden-L&uuml;bbecke' =>'http://piratenpartei-milk.de',
         __('<abbr title="District Chapter">DC</abbr>','piratenkleider').' M&uuml;nster' =>'http://www.piratenpartei-muenster.de/',
+        __('<abbr title="District Chapter">DC</abbr>','piratenkleider').' Neukirchen-Vluyn' =>'http://www.piraten-neukirchen-vluyn.de',
         __('<abbr title="District Chapter">DC</abbr>','piratenkleider').' Rhein-Erft' =>'https://piratenpartei-rhein-erft.de/',
         __('<abbr title="District Chapter">DC</abbr>','piratenkleider').' Rhein-Sieg-Kreis' =>'http://www.piratenpartei-rhein-sieg.de/',
         __('<abbr title="District Chapter">DC</abbr>','piratenkleider').' Soest' =>'http://www.piratenpartei-soest.de/',
@@ -1039,7 +1038,7 @@ $setoptions = array(
               'default_footerlink_key' => array(
                   'type'    => 'select',
                   'title'   => __( 'Section', 'piratenkleider' ),
-                  'label'   => __( 'Chose section for display', 'piratenkleider' ),
+                  'label'   => __( 'Select section for display', 'piratenkleider' ),
                   'default' => $defaultoptions['default_footerlink_key'],
                   'liste'   => $default_footerlink_liste,
               ),
@@ -1070,7 +1069,7 @@ $setoptions = array(
                'artikelstream-type' => array(
                   'type'    => 'select',
                   'title'   => __( 'Set main entry list', 'piratenkleider' ),
-                  'label'   => __( 'Chose which entries are displayed on the start page.', 'piratenkleider' ),
+                  'label'   => __( 'Choose which entries are displayed on the start page.', 'piratenkleider' ),
                   'default' => $defaultoptions['artikelstream-type'],
 		  'liste'   =>  array(
                     0 => __("All entries (from every category) and bookmarks together","piratenkleider"), 
@@ -1083,7 +1082,7 @@ $setoptions = array(
               'artikelstream-exclusive-catliste' => array(
                   'type'    => 'multiselectlist',
                   'title'   => __( 'Categories', 'piratenkleider' ),
-                  'label'   => __( 'Chose categories, which entries should not appear in main entry list on start page.', 'piratenkleider' ),
+                  'label'   => __( 'Select categories, which entries should not appear in main entry list on start page.', 'piratenkleider' ),
                   'liste'   => $currentcatliste,
                   'default' => $defaultoptions['artikelstream-exclusive-catliste'],
                   'parent'  => 'artikelstream'
@@ -1387,7 +1386,7 @@ $setoptions = array(
               'slider-catid' => array(
                   'type'    => 'select',
                   'title'   => __( 'Category', 'piratenkleider' ),
-                  'label'   => __( 'Chose category for slider entries.', 'piratenkleider' ),
+                  'label'   => __( 'Select category for slider entries.', 'piratenkleider' ),
                   'liste'   => $currentcatliste,
                   'default' => $defaultoptions['slider-catid'],
                    'parent'  => 'sliderpars'
@@ -1412,7 +1411,7 @@ $setoptions = array(
               'slider-Direction' => array(
                   'type'    => 'select',
                   'title'   => __( 'Direction', 'piratenkleider' ),
-                  'label'   => __( 'On animation type slide, chose direction.', 'piratenkleider' ),
+                  'label'   => __( 'Choose direction for animated slides', 'piratenkleider' ),
                   'liste'   => array("horizontal" => "horizontal" , "vertical" => "vertical"),
                   'default' => $defaultoptions['slider-Direction'],
                    'parent'  => 'sliderpars'
@@ -1876,8 +1875,8 @@ $setoptions = array(
 	       
 	      'plakate-src' => array(
                   'type'    => 'bilddirchecklist',
-                  'title'   => __( 'Chose poster', 'piratenkleider' ),
-                  'label'   => __( 'Chose poster to display as slides in sidebar.', 'piratenkleider' ),
+                  'title'   => __( 'Select poster', 'piratenkleider' ),
+                  'label'   => __( 'Select poster to display as slides in sidebar.', 'piratenkleider' ),
                   'default' => $defaultoptions['dir-default-plakate'],		                     
 		  'parent'  => 'plakate'
               ), 
@@ -2238,7 +2237,7 @@ $setoptions = array(
                'teaser-thumbnail_width' => array(
                   'type'    => 'number',
                   'title'   => __( 'Teaser Thumb Width', 'piratenkleider' ),
-                  'label'   => __( 'With in px for thumbnail in teasers.', 'piratenkleider' ),
+                  'label'   => __( 'Width in px for thumbnail in teasers.', 'piratenkleider' ),
                   'default' => $defaultoptions['teaser-thumbnail_width'],
                    'parent'  => 'dimensions',
                 ), 
@@ -2252,7 +2251,7 @@ $setoptions = array(
                 'teaser-thumbnail_crop'  => array(
                   'type'    => 'bool',
                   'title'   => __( 'Crop Images', 'piratenkleider' ),
-                  'label'   => __( 'If images should be croped to match the desired dimensions.', 'piratenkleider' ),
+                  'label'   => __( 'Whether images should be cropped to match the desired dimensions.', 'piratenkleider' ),
                   'default' => $defaultoptions['teaser-thumbnail_crop'],
 		  'parent' => 'dimensions',
                 ),
@@ -2260,22 +2259,22 @@ $setoptions = array(
 
                 'linktipp-thumbnail_width' => array(
                   'type'    => 'number',
-                  'title'   => __( 'Linktipp Width', 'piratenkleider' ),
-                  'label'   => __( 'With in px for linktipps.', 'piratenkleider' ),
+                  'title'   => __( 'Bookmark Thumb Width', 'piratenkleider' ),
+                  'label'   => __( 'Width in px for thumbnail in bookmarks.', 'piratenkleider' ),
                   'default' => $defaultoptions['linktipp-thumbnail_width'],
                    'parent'  => 'dimensions',
                 ), 
                 'linktipp-thumbnail_height' => array(
                   'type'    => 'number',
-                  'title'   => __( 'Linktipp Height', 'piratenkleider' ),
-                  'label'   => __( 'Height in px for linktipps.', 'piratenkleider' ),
+                  'title'   => __( 'Bookmark Thumb Height', 'piratenkleider' ),
+                  'label'   => __( 'Height in px for thumbnail in bookmarks.', 'piratenkleider' ),
                   'default' => $defaultoptions['linktipp-thumbnail_height'],
                    'parent'  => 'dimensions',
                 ),  
                'linktipp-thumbnail_crop'  => array(
                   'type'    => 'bool',
                   'title'   => __( 'Crop Images', 'piratenkleider' ),
-                  'label'   => __( 'If images should be croped to match the desired dimensions.', 'piratenkleider' ),
+                  'label'   => __( 'Whether images should be cropped to match the desired dimensions.', 'piratenkleider' ),
                   'default' => $defaultoptions['linktipp-thumbnail_crop'],
 		  'parent' => 'dimensions',
               ),
@@ -2284,21 +2283,21 @@ $setoptions = array(
                 'person-thumbnail_width' => array(
                   'type'    => 'number',
                   'title'   => __( 'Person Thumb Width', 'piratenkleider' ),
-                  'label'   => __( 'With in px for personal cards.', 'piratenkleider' ),
+                  'label'   => __( 'Width in px for thumbnail in business cards', 'piratenkleider' ),
                   'default' => $defaultoptions['person-thumbnail_width'],
                    'parent'  => 'dimensions',
                 ), 
                 'person-thumbnail_height' => array(
                   'type'    => 'number',
                   'title'   => __( 'Person Thumb Height', 'piratenkleider' ),
-                  'label'   => __( 'Height in px for thumbnail in personal cards.', 'piratenkleider' ),
+                  'label'   => __( 'Height in px for thumbnail in business cards', 'piratenkleider' ),
                   'default' => $defaultoptions['person-thumbnail_height'],
                    'parent'  => 'dimensions',
                 ),  
                 'person-thumbnail_crop'  => array(
                   'type'    => 'bool',
                   'title'   => __( 'Crop Images', 'piratenkleider' ),
-                  'label'   => __( 'If images should be croped to match the desired dimensions.', 'piratenkleider' ),
+                  'label'   => __( 'Whether images should be cropped to match the desired dimensions.', 'piratenkleider' ),
                   'default' => $defaultoptions['person-thumbnail_crop'],
 		  'parent' => 'dimensions',
                 ),
@@ -2306,21 +2305,21 @@ $setoptions = array(
                 'sidebar-thumbnail_width' => array(
                   'type'    => 'number',
                   'title'   => __( 'Sidebar Thumb Width', 'piratenkleider' ),
-                  'label'   => __( 'With in px for sidebar thumbs.', 'piratenkleider' ),
+                  'label'   => __( 'Width in px for sidebar thumbs', 'piratenkleider' ),
                   'default' => $defaultoptions['sidebar-thumbnail_width'],
                    'parent'  => 'dimensions',
                 ), 
                 'sidebar-thumbnail_height' => array(
                   'type'    => 'number',
                   'title'   => __( 'Sidebar Thumb Height', 'piratenkleider' ),
-                  'label'   => __( 'Height in px for sidebar thumbs.', 'piratenkleider' ),
+                  'label'   => __( 'Height in px for sidebar thumbs', 'piratenkleider' ),
                   'default' => $defaultoptions['sidebar-thumbnail_height'],
                    'parent'  => 'dimensions',
                 ), 
                 'sidebar-thumbnail_crop'  => array(
                   'type'    => 'bool',
                   'title'   => __( 'Crop Images', 'piratenkleider' ),
-                  'label'   => __( 'If images should be croped to match the desired dimensions.', 'piratenkleider' ),
+                  'label'   => __( 'Whether images should be cropped to match the desired dimensions.', 'piratenkleider' ),
                   'default' => $defaultoptions['sidebar-thumbnail_crop'],
 		  'parent' => 'dimensions',
         ),
@@ -2346,7 +2345,7 @@ $setoptions = array(
               'login_errors' => array(
                   'type'    => 'select',
                   'title'   => __( 'Error message on login', 'piratenkleider' ),
-                  'label'   => __( 'Chose whether error messages will be displayed on login screen, if someone fails with username and password.', 'piratenkleider' ),
+                  'label'   => __( 'Choose whether error messages will be displayed on login screen. The error message could make it easier to guess valid login names.', 'piratenkleider' ),
                   'liste'   => array(
                       1 => __( 'Display error message', 'piratenkleider' ), 
                       0 => __( 'Do not display anything', 'piratenkleider' )),
@@ -2548,8 +2547,8 @@ $setoptions = array(
               ),          
              'open_graph-active'   => array(
                   'type'    => 'bool',
-                  'title'   => __( 'Active Open Graph', 'piratenkleider' ),
-                  'label'   => __( 'Actives Open Graph Meta Tags from Piratenkleider', 'piratenkleider' ),
+                  'title'   => __( 'Activate Open Graph', 'piratenkleider' ),
+                  'label'   => __( 'Activates Open Graph Meta Tags from Piratenkleider', 'piratenkleider' ),
                   'default' => $defaultoptions['open_graph-active'],
                   'parent'  => 'og',
               ),    

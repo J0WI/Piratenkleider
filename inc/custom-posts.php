@@ -104,7 +104,7 @@ function linktipp_metabox_content( $post ) {
 		    value="<?php echo $linktipp_imgid; ?>" />	    
 	     
 	     
-	     <input type="button" id="linktipp_image-button" class="button" value="<?php _e( "Chose image", 'piratenkleider' ); ?>" />
+	     <input type="button" id="linktipp_image-button" class="button" value="<?php _e( "Select image", 'piratenkleider' ); ?>" />
 	    <small> <a href="#" class="custom_clear_image_button"><?php _e( "Remove image", 'piratenkleider' ); ?></a></small> 
 	</p>
 	
@@ -237,9 +237,9 @@ function linktipp_display ($linktipp, $addclass = '') {
 	       if ($options['linktipps-linkpos']==1) {    
 		   $out .= '</a>';
 	       }
-	//      if (isset($linktipp_text)) {
-	//	   $out .=  apply_filters('the_content', $linktipp_text);
-	 //     }
+			if (isset($linktipp_text)) {
+				$out .=  piratenkleider_make_nice_links($linktipp_text);
+			}
 	   $out .= "</article>\n"; 
 
 	   if ($options['linktipps-titlepos']==1) { 
