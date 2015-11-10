@@ -437,14 +437,14 @@ $defaultbilder_liste = array(
  */
 $default_colorstyles = array(
     '-'  =>  __('Default Stylesheet', 'piratenkleider' ),
-    'colors_at.css' => __( 'Austria (Violet)', 'piratenkleider' ),
-    'colors_lu.css' => __( 'Luxemburgh (Violet)', 'piratenkleider' ),
-    'colors_hu.css' => __( 'Hungary (Violet)', 'piratenkleider' ),
-    'colors_tk.css' => __( 'Turkey (Cyan)', 'piratenkleider' ),
-    'colors_us.css' => __( 'USA (Violet)', 'piratenkleider' ),
-    'colors_flaschenpost.css' => __( 'Flaschenpost (Light Blue)', 'piratenkleider' ),
-    'colors_white.css' => __( 'White/Transparent', 'piratenkleider' ),
-    'colors_ch.css' => __( 'Switzerland', 'piratenkleider' ),
+    'colors_at.min.css' => __( 'Austria (Violet)', 'piratenkleider' ),
+    'colors_lu.min.css' => __( 'Luxemburgh (Violet)', 'piratenkleider' ),
+    'colors_hu.min.css' => __( 'Hungary (Violet)', 'piratenkleider' ),
+    'colors_tk.min.css' => __( 'Turkey (Cyan)', 'piratenkleider' ),
+    'colors_us.min.css' => __( 'USA (Violet)', 'piratenkleider' ),
+    'colors_flaschenpost.min.css' => __( 'Flaschenpost (Light Blue)', 'piratenkleider' ),
+    'colors_white.min.css' => __( 'White/Transparent', 'piratenkleider' ),
+    'colors_ch.min.css' => __( 'Switzerland', 'piratenkleider' ),
 
  );
           
