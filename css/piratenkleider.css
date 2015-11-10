@@ -811,6 +811,7 @@ ul.wp-tag-cloud li {
 	position: relative;
 	height: 225px;
 	background: none repeat scroll 0 0 #eee;
+	background-blend-mode: multiply;
 }
 
 .header.actionpage {
