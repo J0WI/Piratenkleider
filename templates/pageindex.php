@@ -46,7 +46,7 @@
         $subcatquery = array(); 
 	if ($cat_array) {
 	  foreach($cat_array as $cat) {
-		$category = get_term_by('ID',$cat, 'category');
+		$category = get_term_by('id',$cat, 'category');
                 $title = '<h2>' . $category->name.'</h2>';
                 
                 $subcatquery =array(
