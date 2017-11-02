@@ -154,7 +154,7 @@
 .content-primary a[href *= "wiki.piratenbrandenburg.de"]:before, 
 .content-primary a[href *= "wiki.piratenpartei.de"]:before {
 	background-position: -62px 0;
-	width: 18px;
+	width: 16px;
 }
 
 .content-primary a[href *= "news.piratenpartei.de"]:before {

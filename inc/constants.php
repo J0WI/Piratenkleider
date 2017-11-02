@@ -4,8 +4,8 @@
  * 
  **/ 
 
-$defaultoptions = array(
-    'js-version'                    => '3.3',
+$defaultoptions = array( 
+    'js-version'                    => '3.4',
     'content-width'                 => 665,
     'yt-content-width'              => 665,
     'yt-content-height'             => 500,
