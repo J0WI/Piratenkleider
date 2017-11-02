@@ -2,7 +2,7 @@ Piratenkleider
 - Wordpress-Theme for websites of the Pirate Party
 ====================================================
 
-Version 3.4.5 by Wolfgang Wiese (xwolf), 04.02.2017
+Version 3.4.8 by Wolfgang Wiese (xwolf), 01.11.2017
 
 
 
