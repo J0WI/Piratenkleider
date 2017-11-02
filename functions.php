@@ -31,7 +31,7 @@ if ($options['anonymize-user']==1) {
     /* IP-Adresse ueberschreiben */
     $_SERVER["REMOTE_ADDR"] = "0.0.0.0";
     /* UA-String ueberschreiben */
-    $_SERVER["HTTP_USER_AGENT"] = "";    
+    $_SERVER["HTTP_USER_AGENT"] = "Browser anonymized";    
     update_option('require_name_email',0);
 }
 
