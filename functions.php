@@ -1636,7 +1636,7 @@ function piratenkleider_make_nice_links($content) {
     $new_content = preg_replace('~<(?:!DOCTYPE|/?(?:html|body))[^>]*>\s*~i', '', $new_content);
     return $new_content;
 }
-add_filter('the_content', 'piratenkleider_make_nice_links');
+// add_filter('the_content', 'piratenkleider_make_nice_links');
 
  
  function get_piratenkleider_template_uri () {
@@ -1644,7 +1644,7 @@ add_filter('the_content', 'piratenkleider_make_nice_links');
  }
  
 
-add_action('template_redirect', 'rw_relative_urls');
+// add_action('template_redirect', 'rw_relative_urls');
 function rw_relative_urls() {
     // Don't do anything if:
     // - In feed
@@ -1980,7 +1980,7 @@ function piratenkleider_page_template($t) {
 function featured_image_in_rss($content) {
     global $post;
     global $options;
-    // ÃœberprÃ¼fen, ob Artikel ein Beitragsbild hat
+    //Check for page image
     
     if(is_feed() && $options['feed-addthumbnail']) {  
         if (!isHTML($content)) {
@@ -2004,7 +2004,7 @@ function featured_image_in_rss($content) {
     return $content;
 }
 
-//Filter fÃ¼r RSS-Content
+//Filter RSS-Content
 add_filter('the_content_feed', 'featured_image_in_rss'); 
 add_filter('the_excerpt_rss', 'featured_image_in_rss');
 
@@ -2017,10 +2017,10 @@ function isHTML($text){
 
 function piratenkleider_admin_init() {
 	remove_post_type_support( 'page', 'comments' );
-        // Keine Kommentar/Dkussionsmetabox auf Seiten
+        // No comments on pages
     $role = get_role('editor');
     $role->add_cap('edit_dashboard');
-        // Statify zulassen fÃ¼r Redakteure
+        // Statify for Editors
 }
 
 add_action('admin_init', 'piratenkleider_admin_init'); 

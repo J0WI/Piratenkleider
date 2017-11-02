@@ -229,3 +229,7 @@ a.rsswidget:before,
 	width: 0;
 	content: normal;
 }
+
+.content-primary #ai1ec-container a:before {
+    content: inherit;
+}
